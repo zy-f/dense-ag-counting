@@ -1,0 +1,16 @@
+name: ag_ct
+channels:
+  - conda-forge
+  - anaconda
+  - pytorch
+dependencies:
+  - pytorch
+  - jupyterlab
+  - opencv
+  - matplotlib
+  - numpy
+  - pandas
+  - tqdm
+  - pip
+  - pip:
+    - tensorboard

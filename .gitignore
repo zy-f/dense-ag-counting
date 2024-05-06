@@ -1,0 +1,8 @@
+# common
+__pycache__/
+.*
+!.gitignore
+
+# project specific
+to_label/
+labeled/
