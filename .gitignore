@@ -4,5 +4,6 @@ __pycache__/
 !.gitignore
 
 # project specific
-to_label/
-labeled/
+openimgv7/
+vis/
+cropped/

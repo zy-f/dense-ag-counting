@@ -1,16 +1,20 @@
 name: ag_ct
 channels:
+  - pytorch
   - conda-forge
   - anaconda
-  - pytorch
 dependencies:
-  - pytorch
+  - pytorch::pytorch
+  - torchvision
   - jupyterlab
   - opencv
+  - Pillow
   - matplotlib
   - numpy
+  - scipy
   - pandas
   - tqdm
   - pip
+  - easydict
   - pip:
-    - tensorboard
+    - tensorboardX
