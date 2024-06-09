@@ -212,7 +212,7 @@ def main():
     # crop_images()
     label_images()
     # print(f"Cropping: {len(get_files(RAW_PATH+'_done'))} done, {len(get_files(RAW_PATH))} left")
-    print(f"Labeling: {len(get_files(LABEL_PATH))//2} done, {len(get_files(CROP_PATH))} left")
+    print(f"Labeling: {len(get_files(LABEL_PATH))//3} done, {len(get_files(CROP_PATH))} left")
 
 if __name__ == '__main__':
     main()
