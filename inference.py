@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 import cv2
 
-WEIGHT_FILE = 'best-weights.pth'
+WEIGHT_FILE = 'jitter-best-weights.pth'
 
 ### vgg backbone arch
 class VGG(nn.Module):
