@@ -333,6 +333,7 @@ def load_p2pnet(device='cpu'):
 class GrapeCounter:
     def __init__(self, device='cpu', thresh=0.5):
         self.model = load_p2pnet(device=device)
+        self.model.eval()
         self.trf = transforms.Compose([
             transforms.ToTensor(), 
             transforms.Normalize(mean=[0.485, 0.456, 0.406],
